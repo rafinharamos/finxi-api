@@ -1,0 +1,227 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$3iIf2tdTmLk3$qHeN1h0SRERJbX7WmFl9VU9RrxOqzjiQWshxxBM58+8=",
+    "last_login": "2019-09-25T14:37:40.723Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "joe@example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-09-25T13:31:02.834Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$4z09O6QDjb6l$G6T8fjJM69OyxObwNV+bmekZtXAbbPCr7LoiqDJmGhI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "anunciante",
+    "first_name": "anunciante",
+    "last_name": "",
+    "email": "anunciante@anunciante.com.br",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-09-25T18:20:54Z",
+    "groups": [],
+    "user_permissions": [
+      [
+        "add_logentry",
+        "admin",
+        "logentry"
+      ],
+      [
+        "change_logentry",
+        "admin",
+        "logentry"
+      ],
+      [
+        "delete_logentry",
+        "admin",
+        "logentry"
+      ],
+      [
+        "view_logentry",
+        "admin",
+        "logentry"
+      ],
+      [
+        "add_group",
+        "auth",
+        "group"
+      ],
+      [
+        "change_group",
+        "auth",
+        "group"
+      ],
+      [
+        "delete_group",
+        "auth",
+        "group"
+      ],
+      [
+        "view_group",
+        "auth",
+        "group"
+      ],
+      [
+        "add_permission",
+        "auth",
+        "permission"
+      ],
+      [
+        "change_permission",
+        "auth",
+        "permission"
+      ],
+      [
+        "delete_permission",
+        "auth",
+        "permission"
+      ],
+      [
+        "view_permission",
+        "auth",
+        "permission"
+      ],
+      [
+        "add_user",
+        "auth",
+        "user"
+      ],
+      [
+        "change_user",
+        "auth",
+        "user"
+      ],
+      [
+        "delete_user",
+        "auth",
+        "user"
+      ],
+      [
+        "view_user",
+        "auth",
+        "user"
+      ],
+      [
+        "add_token",
+        "authtoken",
+        "token"
+      ],
+      [
+        "change_token",
+        "authtoken",
+        "token"
+      ],
+      [
+        "delete_token",
+        "authtoken",
+        "token"
+      ],
+      [
+        "view_token",
+        "authtoken",
+        "token"
+      ],
+      [
+        "add_contenttype",
+        "contenttypes",
+        "contenttype"
+      ],
+      [
+        "change_contenttype",
+        "contenttypes",
+        "contenttype"
+      ],
+      [
+        "delete_contenttype",
+        "contenttypes",
+        "contenttype"
+      ],
+      [
+        "view_contenttype",
+        "contenttypes",
+        "contenttype"
+      ],
+      [
+        "add_demandas",
+        "core",
+        "demandas"
+      ],
+      [
+        "change_demandas",
+        "core",
+        "demandas"
+      ],
+      [
+        "delete_demandas",
+        "core",
+        "demandas"
+      ],
+      [
+        "view_demandas",
+        "core",
+        "demandas"
+      ],
+      [
+        "add_session",
+        "sessions",
+        "session"
+      ],
+      [
+        "change_session",
+        "sessions",
+        "session"
+      ],
+      [
+        "delete_session",
+        "sessions",
+        "session"
+      ],
+      [
+        "view_session",
+        "sessions",
+        "session"
+      ]
+    ]
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dwf88kx1rd5fkymv2q2pgk1u2qqd33y0",
+  "fields": {
+    "session_data": "MWUxMTRiYTY5ZjRhZjg2OGNjOGU5OGRlMTY1YmYwODZiMDA3ZDJmMTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1ZDA3NWYxMWEwOTdjZjI5NmI4MTNhZDY4MDZhYzlmNzI0YzllMWZlIn0=",
+    "expire_date": "2019-10-09T14:37:40.792Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "4f04032292b23190c66c82e70637eb99404ca6ab",
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "created": "2019-09-25T14:37:50.907Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "de02d61b6eb8d8a2abc367ff459cb9b8b193a444",
+  "fields": {
+    "user": [
+      "anunciante"
+    ],
+    "created": "2019-09-26T14:20:20.955Z"
+  }
+}
+]
